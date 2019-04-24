@@ -39,7 +39,7 @@ yarn run test:unit
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### tips
-项目构建中，语法错误暂时忽略，之后如需加入githooks，请添加以下代码到package.json的后面
+项目构建中，语法错误暂时取消Tslint，之后如需加入githooks，请添加以下代码到package.json的后面
 ```json
   "gitHooks": {
     "pre-commit": "lint-staged"
